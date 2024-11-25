@@ -1,0 +1,49 @@
+body {
+  font-family: "游ゴシック体", "Yu Gothic", YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, sans-serif; /* 游ゴシック体を優先し、代替フォントを指定 */
+  background-color: #f8f8f8; /* 背景色：薄いグレー */
+  color: #333; /* テキストカラー：濃いグレー */
+}
+
+.container {
+  width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* 影を追加 */
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #206095; /* アクセントカラー：青 */
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+input,
+select {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box; /* paddingを含めたサイズにする */
+  margin-bottom: 16px;
+}
+
+button {
+  background-color: #206095; /* 青 */
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #164a71; /* 少し濃い青 */
+}
