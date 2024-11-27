@@ -1,0 +1,3 @@
+Flask
+googlemaps
+google-cloud-aiplatform
